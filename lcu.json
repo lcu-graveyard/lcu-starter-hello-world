@@ -1,0 +1,14 @@
+{
+  "templates": {
+    "repository": "lowcodeunit-devkit/lcu-cli-templates-core",
+    "scope": "@fathym-it",
+    "workspace": "lcu-starter-hello-world"
+  },
+  "config": {
+    "wc": ["wc/lcu-starter-hello-world.lcu.js"],
+    "solutions": {},
+    "elements": {},
+    "data-flow": {},
+    "dependencies": {}
+  }
+}
