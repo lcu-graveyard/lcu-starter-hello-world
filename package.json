@@ -21,7 +21,7 @@
     "@angular/platform-browser": "~8.2.5",
     "@angular/platform-browser-dynamic": "~8.2.5",
     "@angular/router": "~8.2.5",
-    "@lowcodeunit-devkit/ng-lcu": "^0.81.423",
+    "@lowcodeunit-devkit/ng-lcu": "^0.84.433",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
@@ -30,7 +30,7 @@
     "@angular/cli": "~8.3.4",
     "@angular/compiler-cli": "~8.2.5",
     "@angular/language-service": "~8.2.5",
-    "@lcu/cli": "^0.23.8",
+    "@lcu/cli": "^0.24.12",
     "@types/jasmine": "~3.3.8",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
