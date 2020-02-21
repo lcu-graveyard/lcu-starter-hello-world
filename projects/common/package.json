@@ -1,0 +1,9 @@
+{
+	"name": "@fathym-it/lcu-starter-hello-world-common",
+	"version": "0.0.1",
+	"peerDependencies": {
+		"@angular/common": "^9.0.1",
+		"@angular/core": "^9.0.1",
+		"tslib": "^1.10.0"
+	}
+}
