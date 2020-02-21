@@ -1,23 +1,25 @@
 {
-	"compileOnSave": false,
-	"compilerOptions": {
-		"baseUrl": "./",
-		"outDir": "./dist/out-tsc",
-		"sourceMap": true,
-		"declaration": false,
-		"downlevelIteration": true,
-		"experimentalDecorators": true,
-		"module": "esnext",
-		"moduleResolution": "node",
-		"importHelpers": true,
-		"target": "es2015",
-		"typeRoots": [
-			"node_modules/@types"
-		],
-		"lib": [
-			"es2018",
-			"dom"
-		],
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
 		"paths": {
 			"@fathym-it/lcu-starter-hello-world-common": [
 				"dist/common"
@@ -26,9 +28,10 @@
 				"dist/common/*"
 			]
 		}
-	},
-	"angularCompilerOptions": {
-		"fullTemplateTypeCheck": true,
-		"strictInjectionParameters": true
-	}
+  },
+  "angularCompilerOptions": {
+		"enableIvy": false,
+		"strictInjectionParameters": true,
+		"strictTemplates": true
+  }
 }
